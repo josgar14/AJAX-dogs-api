@@ -17,6 +17,5 @@ function addNewDoggo() {
 			img.alt = 'Cute doggo';
 			doggos.appendChild(img);
 		});
-
-	document.querySelector('.add-doggo').addEventListener('click', addNewDoggo);
 }
+document.querySelector('.add-doggo').addEventListener('click', addNewDoggo);
